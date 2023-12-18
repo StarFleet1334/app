@@ -1,0 +1,41 @@
+
+
+.app {
+  min-height: calc(100vh - 70px);
+    height: 1220px;
+    top: -246px;
+    left: -546px;
+  background-color: #F3F2FA; /* Ensure this matches the design */
+}
+
+.banner {
+    display: flex;
+    align-items: center; /* This aligns items vertically in the center */
+    justify-content: space-between; /* This spaces out the text and the image */
+    padding: 20px; /* Add padding as needed */ 
+  }
+  
+  .banner-title {
+    position: absolute;
+    width: 225px;
+    height: 72px;
+    top: 208px;
+    left: 79px;
+    font-family: FiraGO;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+  }
+  
+  .banner-image {
+    /* Add styles for your image here */
+    position: absolute;
+    width: 624px;
+    height: 200px;
+    top: 144px;
+    left: 840px;
+  }
+  

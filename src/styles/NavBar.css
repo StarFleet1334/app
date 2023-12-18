@@ -4,6 +4,8 @@
   align-items: center;
   background-color: #fff;
   padding: 1rem 2rem;
+  height: 70px;
+  border: 0px, 0px, 1px, 0px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #E4E3EB;
 }
@@ -11,15 +13,22 @@
 .logo {
   font-size: 1.5rem;
   color: red;
+  position: absolute;
+  width: 150px;
+  height: 24px;
+  top: 28px;
+  left: 76px;
+
   /* Additional styling */
 }
 
 .button {
+  position: absolute;
   width: 93px;
   height: 40px;
   background-color: #5D37F3;
   top: 20px;
-  left: 1271px;
+  left: 1391px;
   padding: 10px, 20px, 10px, 20px;
   border-radius: 8px;
   border: none;
