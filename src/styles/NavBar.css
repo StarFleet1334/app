@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #E4E3EB;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: red;
+  /* Additional styling */
+}
+
+.button {
+  width: 93px;
+  height: 40px;
+  background-color: #5D37F3;
+  top: 20px;
+  left: 1271px;
+  padding: 10px, 20px, 10px, 20px;
+  border-radius: 8px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  gap: 10px;
+
+}
+
+.nav-links {
+  list-style: none;
+  /* Additional styling */
+}
+

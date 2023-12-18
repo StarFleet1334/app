@@ -1,0 +1,105 @@
+.modal-overlay {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-body {
+    background: white;
+    width: 480px;
+    height: 272px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative; /* Removed absolute positioning */
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .group_3 {
+    width: 432px;
+    height: 72px;
+    top: 410px;
+    left: 504px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 8px;
+  }
+  
+  .heading {
+    font-family: FiraGO;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input_text, .modal-submit-button {
+    width: 432px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1.5px solid #5D37F3;
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    width: 76px;
+    height: 20px;
+    top: 410px;
+    left: 504px;
+    font-family: FiraGO;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  #input-email {
+    width: 100%;
+    height: 44px;
+    top: 438px;
+    left: 504px;
+    border-radius: 12px;
+    border: 1.5px solid rgba(93, 55, 243, 1);
+    background: #F7F7FF;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .modal-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .modal-submit-button {
+    width: 432px;
+    height: 40px;
+    top: 506px;
+    left: 504px;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 8px;
+    background: #5D37F3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
